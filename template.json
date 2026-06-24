@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled {paper_input} \n    with the following specifications: explanation style {style_input}\n    (simple, maths, or code) and explanation length {length_input}, \n    including relevant mathematical equations if present \n    and explaining them using simple, intuitive code snippets where applicable, \n    while also using relatable analogies to simplify complex ideas;\n    if certain information is not available in the paper,\n    respond with \u201cInsufficient information available\u201d instead of guessing,\n    and ensure the summary is clear, accurate, and aligned with the provided style and length.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
