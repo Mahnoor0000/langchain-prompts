@@ -1,4 +1,4 @@
-# LangChain Prompts - Self Learning Project
+# LangChain Prompts 
 
 This is a **self-learning practice** where I explore how prompts, chatbots, and LLM workflows work using Python.
 
